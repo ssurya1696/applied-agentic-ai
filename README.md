@@ -14,20 +14,19 @@ Agentic AI systems are capable of:
 
 ## Projects
 
-### Autonomous Task Planner Agent
+### 1. Autonomous Task Planner Agent
 
 A goal-driven agent that decomposes high-level objectives into actionable steps,
 executes them sequentially, and validates results using a plan–execute–verify loop.
 
-Notebook:
-`agentic_task_planner.ipynb`
+Notebook: `agentic_task_planner.ipynb`
 
-Key concepts:
+**Key concepts:**
 - Planning loops
 - Agent state and memory
 - Validation and reflection
 
-### Multi-Agent RAG System
+### 2. Multi-Agent RAG System
 
 A retrieval-augmented generation system built using a multi-agent architecture,
 where independent agents handle retrieval, answer generation, and critique to
@@ -40,3 +39,16 @@ Notebook: `multi_agent_rag_langgraph.ipynb`
 - Retrieval-augmented generation (RAG)
 - Hallucination detection using a critic agent
 - Explicit control flow with LangGraph
+
+### 3. Self-Reflecting Agent with Memory
+
+An autonomous agent that evaluates its own outputs, records failures,
+and uses reflection memory to improve future responses over time.
+
+Notebook: `self_reflecting_agent_langgraph.ipynb`
+
+**Key concepts:**
+- Self-reflection and critique loops
+- Failure memory and learning from mistakes
+- Iterative answer refinement
+- Agent state persistence with LangGraph
