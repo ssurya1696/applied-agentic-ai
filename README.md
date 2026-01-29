@@ -26,3 +26,17 @@ Key concepts:
 - Planning loops
 - Agent state and memory
 - Validation and reflection
+
+### Multi-Agent RAG System
+
+A retrieval-augmented generation system built using a multi-agent architecture,
+where independent agents handle retrieval, answer generation, and critique to
+reduce hallucinations and improve answer quality.
+
+Notebook: `multi_agent_rag_langgraph.ipynb`
+
+**Key concepts:**
+- Multi-agent system design
+- Retrieval-augmented generation (RAG)
+- Hallucination detection using a critic agent
+- Explicit control flow with LangGraph
