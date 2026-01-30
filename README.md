@@ -65,3 +65,17 @@ Notebook: `tool_using_agent_langgraph.ipynb`
 - Action–observation loop
 - Agent decision-making
 - Explicit control flow with LangGraph
+
+### 5. Re-Ranking Agent in RAG
+
+A retrieval-augmented generation system that introduces a re-ranking agent to
+refine retrieved documents before answer generation, improving relevance and
+reducing hallucinations.
+
+Notebook: `reranking_agent_rag_langgraph.ipynb`
+
+**Key concepts:**
+- Multi-stage retrieval
+- Document re-ranking
+- Improved context selection
+- Explicit control flow with LangGraph
