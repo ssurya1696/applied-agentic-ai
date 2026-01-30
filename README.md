@@ -52,3 +52,16 @@ Notebook: `self_reflecting_agent_langgraph.ipynb`
 - Failure memory and learning from mistakes
 - Iterative answer refinement
 - Agent state persistence with LangGraph
+
+### 4. Tool-Using Agent
+
+An autonomous agent that decides when to invoke external tools, executes them,
+and incorporates tool outputs into its final response.
+
+Notebook: `tool_using_agent_langgraph.ipynb`
+
+**Key concepts:**
+- Tool selection and invocation
+- Action–observation loop
+- Agent decision-making
+- Explicit control flow with LangGraph
