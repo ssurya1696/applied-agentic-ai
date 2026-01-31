@@ -79,3 +79,16 @@ Notebook: `reranking_agent_rag_langgraph.ipynb`
 - Document re-ranking
 - Improved context selection
 - Explicit control flow with LangGraph
+
+### 6. Long-Horizon Goal Agent
+
+An autonomous agent that breaks a long-term goal into smaller milestones,
+tracks progress over time, and adapts plans based on completion and feedback.
+
+Notebook: `long_horizon_goal_agent_langgraph.ipynb`
+
+**Key concepts:**
+- Long-term planning
+- Goal decomposition into milestones
+- Progress tracking
+- Plan adaptation using agent state
