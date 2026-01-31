@@ -92,3 +92,16 @@ Notebook: `long_horizon_goal_agent_langgraph.ipynb`
 - Goal decomposition into milestones
 - Progress tracking
 - Plan adaptation using agent state
+
+### 7. Persistent Memory Agent
+
+An agent that stores past interactions as vector-based memory and retrieves
+relevant experiences to influence future decisions across runs.
+
+Notebook: `persistent_memory_agent_langgraph.ipynb`
+
+**Key concepts:**
+- Persistent episodic memory
+- Vector-based memory retrieval
+- Memory-aware decision making
+- Explicit memory read and write steps
