@@ -105,3 +105,17 @@ Notebook: `persistent_memory_agent_langgraph.ipynb`
 - Vector-based memory retrieval
 - Memory-aware decision making
 - Explicit memory read and write steps
+
+### 8. Multi-Agent Collaboration System
+
+A collaborative agent system where specialized agents plan, execute,
+and review tasks, coordinating through explicit control flow to
+produce higher-quality outcomes.
+
+Notebook: `multi_agent_collaboration_langgraph.ipynb`
+
+**Key concepts:**
+- Multi-agent coordination
+- Role specialization
+- Inter-agent communication
+- Review and refinement loops
