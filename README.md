@@ -119,3 +119,16 @@ Notebook: `multi_agent_collaboration_langgraph.ipynb`
 - Role specialization
 - Inter-agent communication
 - Review and refinement loops
+
+### 9. Self-Evaluating Agent with Metrics
+
+An agent that evaluates its own outputs using explicit quality metrics
+and adapts its responses based on measured performance.
+
+Notebook: `self_evaluating_agent_langgraph.ipynb`
+
+**Key concepts:**
+- Agent self-evaluation
+- Quality metrics and scoring
+- Decision-making based on evaluation
+- Controlled refinement loops
