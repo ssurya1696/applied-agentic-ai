@@ -132,3 +132,16 @@ Notebook: `self_evaluating_agent_langgraph.ipynb`
 - Quality metrics and scoring
 - Decision-making based on evaluation
 - Controlled refinement loops
+
+### 10. Semantic-Graph Memory Agent
+
+An agent that stores information as a knowledge graph and uses structured
+relationships between entities to support reasoning and decision-making.
+
+Notebook: `semantic_graph_memory_agent_langgraph.ipynb`
+
+**Key concepts:**
+- Semantic graph–based memory
+- Entity and relationship extraction
+- Structured reasoning
+- Graph-driven context retrieval
