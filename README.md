@@ -1,7 +1,9 @@
 # Applied Agentic AI
 
-Practical, production-oriented implementations of Agentic AI systems,
-focusing on autonomous planning, execution, validation, and multi-agent collaboration.
+Practical, production-oriented implementations of **Agentic AI systems**,
+focusing on autonomous planning, execution, validation, memory and multi-agent collaboration.
+
+---
 
 ## What is Agentic AI?
 
@@ -12,136 +14,26 @@ Agentic AI systems are capable of:
 - Validating and refining outputs
 - Working toward long-horizon goals
 
+---
+
 ## Projects
 
-### 1. Autonomous Task Planner Agent
+| # | Project | Notebook | Description |
+|---:|--------|----------|-------------|
+| 1 | Autonomous Task Planner Agent | `agentic_task_planner.ipynb` | A goal-driven agent that decomposes high-level objectives into actionable steps and executes them using a plan–execute–verify loop. |
+| 2 | Multi-Agent RAG System | `multi_agent_rag_langgraph.ipynb` | A multi-agent retrieval-augmented generation system where retrieval, answer generation, and critique are handled by separate agents to reduce hallucinations. |
+| 3 | Self-Reflecting Agent with Memory | `self_reflecting_agent_langgraph.ipynb` | An agent that critiques its own outputs, records failures, and improves responses over time using reflection memory. |
+| 4 | Tool-Using Agent | `tool_using_agent_langgraph.ipynb` | An agent that decides when to invoke external tools, executes them, and integrates tool outputs into final responses. |
+| 5 | Re-Ranking Agent in RAG | `reranking_agent_rag_langgraph.ipynb` | A RAG system enhanced with a re-ranking agent to refine retrieved documents and improve answer relevance. |
+| 6 | Long-Horizon Goal Agent | `long_horizon_goal_agent_langgraph.ipynb` | An agent that decomposes long-term goals into milestones, tracks progress, and adapts plans based on feedback. |
+| 7 | Persistent Memory Agent | `persistent_memory_agent_langgraph.ipynb` | An agent with vector-based persistent memory that retrieves past experiences to influence decisions across runs. |
+| 8 | Multi-Agent Collaboration System | `multi_agent_collaboration_langgraph.ipynb` | A system of specialized agents that collaborate through planning, execution, and review to produce higher-quality outcomes. |
+| 9 | Self-Evaluating Agent with Metrics | `self_evaluating_agent_langgraph.ipynb` | An agent that evaluates its own outputs using explicit quality metrics and refines responses based on measured performance. |
+| 10 | Semantic Graph Memory Agent | `semantic_graph_memory_agent_langgraph.ipynb` | An agent that stores knowledge as a semantic graph (nodes and relationships) and answers questions by reasoning over structured memory. |
 
-A goal-driven agent that decomposes high-level objectives into actionable steps,
-executes them sequentially, and validates results using a plan–execute–verify loop.
+---
 
-Notebook: `agentic_task_planner.ipynb`
+## Notes
 
-**Key concepts:**
-- Planning loops
-- Agent state and memory
-- Validation and reflection
-
-### 2. Multi-Agent RAG System
-
-A retrieval-augmented generation system built using a multi-agent architecture,
-where independent agents handle retrieval, answer generation, and critique to
-reduce hallucinations and improve answer quality.
-
-Notebook: `multi_agent_rag_langgraph.ipynb`
-
-**Key concepts:**
-- Multi-agent system design
-- Retrieval-augmented generation (RAG)
-- Hallucination detection using a critic agent
-- Explicit control flow with LangGraph
-
-### 3. Self-Reflecting Agent with Memory
-
-An autonomous agent that evaluates its own outputs, records failures,
-and uses reflection memory to improve future responses over time.
-
-Notebook: `self_reflecting_agent_langgraph.ipynb`
-
-**Key concepts:**
-- Self-reflection and critique loops
-- Failure memory and learning from mistakes
-- Iterative answer refinement
-- Agent state persistence with LangGraph
-
-### 4. Tool-Using Agent
-
-An autonomous agent that decides when to invoke external tools, executes them,
-and incorporates tool outputs into its final response.
-
-Notebook: `tool_using_agent_langgraph.ipynb`
-
-**Key concepts:**
-- Tool selection and invocation
-- Action–observation loop
-- Agent decision-making
-- Explicit control flow with LangGraph
-
-### 5. Re-Ranking Agent in RAG
-
-A retrieval-augmented generation system that introduces a re-ranking agent to
-refine retrieved documents before answer generation, improving relevance and
-reducing hallucinations.
-
-Notebook: `reranking_agent_rag_langgraph.ipynb`
-
-**Key concepts:**
-- Multi-stage retrieval
-- Document re-ranking
-- Improved context selection
-- Explicit control flow with LangGraph
-
-### 6. Long-Horizon Goal Agent
-
-An autonomous agent that breaks a long-term goal into smaller milestones,
-tracks progress over time, and adapts plans based on completion and feedback.
-
-Notebook: `long_horizon_goal_agent_langgraph.ipynb`
-
-**Key concepts:**
-- Long-term planning
-- Goal decomposition into milestones
-- Progress tracking
-- Plan adaptation using agent state
-
-### 7. Persistent Memory Agent
-
-An agent that stores past interactions as vector-based memory and retrieves
-relevant experiences to influence future decisions across runs.
-
-Notebook: `persistent_memory_agent_langgraph.ipynb`
-
-**Key concepts:**
-- Persistent episodic memory
-- Vector-based memory retrieval
-- Memory-aware decision making
-- Explicit memory read and write steps
-
-### 8. Multi-Agent Collaboration System
-
-A collaborative agent system where specialized agents plan, execute,
-and review tasks, coordinating through explicit control flow to
-produce higher-quality outcomes.
-
-Notebook: `multi_agent_collaboration_langgraph.ipynb`
-
-**Key concepts:**
-- Multi-agent coordination
-- Role specialization
-- Inter-agent communication
-- Review and refinement loops
-
-### 9. Self-Evaluating Agent with Metrics
-
-An agent that evaluates its own outputs using explicit quality metrics
-and adapts its responses based on measured performance.
-
-Notebook: `self_evaluating_agent_langgraph.ipynb`
-
-**Key concepts:**
-- Agent self-evaluation
-- Quality metrics and scoring
-- Decision-making based on evaluation
-- Controlled refinement loops
-
-### 10. Semantic-Graph Memory Agent
-
-An agent that stores information as a knowledge graph and uses structured
-relationships between entities to support reasoning and decision-making.
-
-Notebook: `semantic_graph_memory_agent_langgraph.ipynb`
-
-**Key concepts:**
-- Semantic graph–based memory
-- Entity and relationship extraction
-- Structured reasoning
-- Graph-driven context retrieval
+- All projects are implemented using **LangGraph** for explicit control flow and state management.
+- The focus is on **reliability, explainability and production-oriented agent design**, not just prompt chaining.
