@@ -30,6 +30,7 @@ Agentic AI systems are capable of:
 | 8 | Multi-Agent Collaboration System | `multi_agent_collaboration_langgraph.ipynb` | A system of specialized agents that collaborate through planning, execution, and review to produce higher-quality outcomes. |
 | 9 | Self-Evaluating Agent with Metrics | `self_evaluating_agent_langgraph.ipynb` | An agent that evaluates its own outputs using explicit quality metrics and refines responses based on measured performance. |
 | 10 | Semantic Graph Memory Agent | `semantic_graph_memory_agent_langgraph.ipynb` | An agent that stores knowledge as a semantic graph (nodes and relationships) and answers questions by reasoning over structured memory. |
+| 11 | Enterprise Agent Orchestrator with Observability | `enterprise_agent_orchestrator_langchain.ipynb` | A production-grade LLM orchestration pipeline using LangChain’s ChatOpenAI with environment-based configuration, retry logic, model fallback routing, cost tracking, and structured observability. |
 
 ---
 
