@@ -35,6 +35,7 @@ Agentic AI systems are capable of:
 | 13 | Planner–Executor–Verifier Architecture | `async_planner_executor_verifier_langgraph.ipynb` | An asynchronous LangGraph-based Planner–Executor–Verifier agent architecture. |
 | 14 | Event-Driven Agent Architecture | `event_driven_agent_architecture_langgraph.ipynb` | A LangGraph-based event-driven agent system where agents react to emitted events through conditional routing. |
 | 15 | Blackboard Multi-Agent Architecture | `blackboard_agent_architecture_langgraph.ipynb` | Independent specialist agents collaborate by reading and writing to shared memory instead of directly invoking one another. |
+| 16 | Distributed Agent Execution | `distributed_agent_execution_simulation_langgraph.ipynb` | A LangGraph-based distributed agent execution simulator that parallelizes task processing across worker pools using asynchronous orchestration. |
 
 ---
 
