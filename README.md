@@ -34,6 +34,7 @@ Agentic AI systems are capable of:
 | 12 | Supervisor-Controlled Routing Architecture | `supervisor_controlled_routing_langgraph.ipynb` | A LangGraph-based supervisor architecture where a central governance agent dynamically routes tasks to specialized agents based on intent classification and policy rules. |
 | 13 | Planner–Executor–Verifier Architecture | `async_planner_executor_verifier_langgraph.ipynb` | An asynchronous LangGraph-based Planner–Executor–Verifier agent architecture. |
 | 14 | Event-Driven Agent Architecture | `event_driven_agent_architecture_langgraph.ipynb` | A LangGraph-based event-driven agent system where agents react to emitted events through conditional routing. |
+| 15 | Blackboard Multi-Agent Architecture | `blackboard_agent_architecture_langgraph.ipynb` | Independent specialist agents collaborate by reading and writing to shared memory instead of directly invoking one another. |
 
 ---
 
