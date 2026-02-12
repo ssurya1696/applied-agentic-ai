@@ -32,6 +32,7 @@ Agentic AI systems are capable of:
 | 10 | Semantic Graph Memory Agent | `semantic_graph_memory_agent_langgraph.ipynb` | An agent that stores knowledge as a semantic graph (nodes and relationships) and answers questions by reasoning over structured memory. |
 | 11 | Enterprise Agent Orchestrator with Observability | `enterprise_agent_orchestrator_langchain.ipynb` | A production-grade LLM orchestration pipeline using LangChain’s ChatOpenAI with environment-based configuration, retry logic, model fallback routing, cost tracking, and structured observability. |
 | 12 | Supervisor-Controlled Routing Architecture | `supervisor_controlled_routing_langgraph.ipynb` | A LangGraph-based supervisor architecture where a central governance agent dynamically routes tasks to specialized agents based on intent classification and policy rules. |
+| 13 | Planner–Executor–Verifier Architecture | `async_planner_executor_verifier_langgraph.ipynb` | An asynchronous LangGraph-based Planner–Executor–Verifier agent architecture. |
 
 ---
 
